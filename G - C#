@@ -1,0 +1,28 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+			
+		 //Escreva um programa que peça ao usuário para digitar dois números e exiba o resultado da subtração do segundo pelo primeiro.
+		 
+		 Console.WriteLine ("Digite o subtraendo: ");
+		 double subtraendo = Convert.ToDouble(Console.ReadLine());
+		 
+		 Console.WriteLine ("Digite o minuendo: ");
+		 double minuendo = Convert.ToDouble(Console.ReadLine());
+		 
+		 double restoDiferenca = minuendo/subtraendo;
+		 
+		 Console.WriteLine("O resto ou diferença desse número é: " + restoDiferenca);
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
