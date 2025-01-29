@@ -1,0 +1,27 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+			
+		//Escreva um programa que peça ao usuário para digitar um número e exiba a sua raiz quadrada.
+		  
+		 double raiz = 0;
+		 
+		 Console.WriteLine ("Digite um número para exirbimos sua raiz quadrada: ");
+		 double numero = Convert.ToDouble(Console.ReadLine());
+		 
+		 raiz = Math.Sqrt(numero);
+		 
+		 Console.WriteLine("A raiz quadrda desse número é: " + raiz);
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
