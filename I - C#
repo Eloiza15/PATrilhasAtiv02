@@ -1,0 +1,28 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+			
+		 //Escreva um programa que peça ao usuário para digitar dois números e exiba o resultado da multiplicação entre eles.
+		  
+		 Console.WriteLine ("Digite o primeiro número da multiplicação: ");
+		 double numPrimeiro = Convert.ToDouble(Console.ReadLine());
+		 
+		 Console.WriteLine ("Digite o segundo número da multiplicação: ");
+		 double numSegundo = Convert.ToDouble(Console.ReadLine());
+		 
+		 double resultado = numPrimeiro*numSegundo;
+		 
+		 Console.WriteLine("O resultado da multiplicação é: " + resultado);
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
