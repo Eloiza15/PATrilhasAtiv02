@@ -1,0 +1,25 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+			
+		//Escreva um programa que peça ao usuário para digitar um número e exiba a sua metade.
+		 
+		 Console.WriteLine ("Digite um número para exibirmos sua metade: ");
+		 double numero = Convert.ToDouble(Console.ReadLine());
+		 
+		 double metade = numero/2;
+		 
+		 Console.WriteLine("A metade desse número é: " + metade);
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
