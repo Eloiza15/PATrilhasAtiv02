@@ -1,0 +1,25 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+			
+		 //Escreva um programa que peça ao usuário para digitar um número e exiba o seu resto da divisão por 2.
+		  
+		 Console.WriteLine ("Digite o número para exibirmos o seu resto dividido por 2: ");
+		 double numero = Convert.ToDouble(Console.ReadLine());
+		 
+		 double resto = numero%2;
+		 
+		 Console.WriteLine("O resto da divisão desse número por 2 é: " + resto);
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
