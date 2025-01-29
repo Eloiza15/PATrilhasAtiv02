@@ -1,0 +1,25 @@
+using System;
+
+namespace Exercicios
+{ 
+	class Program 
+	{
+		public static void Main()
+		{
+			
+		 //Escreva um programa que peça ao usuário para digitar um número e exiba o seu valor absoluto.
+		  
+		 Console.WriteLine ("Digite um número para exibirmos seu valor absoluto: ");
+		 double numero = Convert.ToDouble(Console.ReadLine());
+		 
+		 double valorAbsoluto = Math.Abs(numero);
+		 
+		 Console.WriteLine("O valor absoluto desse número é: " + valorAbsoluto);
+		 
+		 Console.WriteLine("");
+		 Console.Write("Pressione qualquer tecla para fechar..");
+		 Console.ReadKey(true);
+			
+		}
+	}
+}
